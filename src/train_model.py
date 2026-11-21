@@ -48,3 +48,5 @@ joblib.dump(model, 'models/dengue_model.pkl')
 with open("models/validation_metrics.txt", "w") as f:
     f.write(f"MAE: {mae:.2f}\nRMSE: {rmse:.2f}\n")
 print("Model and metrics saved.")
+print(f"✅ Training pipeline complete. Model serialized to models/dengue_model.pkl")
+print(f"📊 Final Metrics -> MAE: {mae:.2f}, RMSE: {rmse:.2f}")
