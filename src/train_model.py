@@ -50,3 +50,14 @@ with open("models/validation_metrics.txt", "w") as f:
 print("Model and metrics saved.")
 print(f"✅ Training pipeline complete. Model serialized to models/dengue_model.pkl")
 print(f"📊 Final Metrics -> MAE: {mae:.2f}, RMSE: {rmse:.2f}")
+print("\n📊 Analyzing Feature Importance...")
+importance = model.feature_importances_
+feature_importance = pd.DataFrame({
+    'Feature': features,
+    'Importance': importance
+}).sort_values(by='Importance', ascending=False)
+
+# Save the feature importance to a file for the architecture report
+feature_importance.to_csv("models/feature_importance.csv", index=False)
+print("✅ Feature importance saved to models/feature_importance.csv")
+print(f"Top Predictor: {feature_importance.iloc[0]['Feature']}")
