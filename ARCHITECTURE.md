@@ -19,3 +19,6 @@
 
 ## 4. Resilience
 - **Graceful Handling:** If the serialized model file is missing, the dashboard will catch the error and display a user-friendly warning rather than crashing.
+- ## 5. Future Enhancements (Phase 2)
+- Implement a PostgreSQL database for real-time doctor schedule updates.
+- Integrate SMS alerts for high-risk outbreak wards.
