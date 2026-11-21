@@ -1,9 +1,9 @@
 # Dengue Outbreak Risk Predictor Web Dashboard
 
 ## Team
-- **[Your Name]** (Data Pipeline & Model)
-- **[Teammate 1]** (Dashboard UI)
-- **[Teammate 2]** (Documentation & Git)
+- **[saad iqbal esti]** (Data Pipeline & Model)
+- **[mohammed ferdous goni]** (Dashboard UI)
+- **[srijan barua]** (Documentation & Git)
 
 ## Project Overview
 This project is a full-stack AI Web Dashboard designed to predict dengue outbreak risk tiers (Low, Medium, High, Critical) for various wards across 5 cities in Bangladesh. It utilizes a LightGBM machine learning model trained on 10 years of historical weather and dengue data. 
