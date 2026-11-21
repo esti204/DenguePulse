@@ -1294,4 +1294,4 @@ with tab4:
 with tab5:
     page_admin()
 
-render('<div class="foot">DenguePulse · built for faster, smarter dengue response</div>')
+render('<div class="foot">DenguePulse · render('<div class="foot">DenguePulse · built by Team [Your Team Name] · Empowering public health with AI</div>')</div>')
