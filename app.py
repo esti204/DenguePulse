@@ -1294,14 +1294,7 @@ with tab4:
 with tab5:
     page_admin()
 
-render('<div class="foot">DenguePulse · render('<div class="foot">DenguePulse · built by Team [Your Team Name] · Empowering public health with AI</div>')</div>')
-st.sidebar.markdown("---")
-st.sidebar.markdown("### 📥 Export Data")
-csv = df.to_csv(index=False).encode('utf-8')
-st.sidebar.download_button(
-    label="Download Cleaned Dataset (CSV)",
-    data=csv,
-    file_name='dengue_clean_data.csv',
-    mime='text/csv',
-    help="Download the data currently loaded in the dashboard."
-)
+with tab5:
+    page_admin()
+
+render('<div class="foot">DenguePulse · built by Team [KILL-9] · Empowering public health with AI</div>')
