@@ -40,3 +40,5 @@ df = df.dropna().reset_index(drop=True)
 # 5. Save
 df.to_csv("data/processed/dengue_clean.csv", index=False)
 print(f"✅ Clean data with engineered features saved! Shape: {df.shape}")
+# 4.5 Log validation check
+print(f"✅ Pipeline complete. Processed {len(df)} rows across {df['city'].nunique()} cities.")
